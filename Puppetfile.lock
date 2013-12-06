@@ -1,0 +1,132 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    dprince/qpid (1.0.2)
+      puppetlabs/stdlib (>= 0.0.1)
+    duritong/sysctl (0.0.2)
+    puppetlabs/apache (0.9.0)
+      puppetlabs/concat (>= 1.0.0)
+      puppetlabs/stdlib (>= 2.4.0)
+    puppetlabs/apt (1.4.0)
+      puppetlabs/stdlib (>= 2.2.1)
+    puppetlabs/cinder (3.0.0-rc1)
+      dprince/qpid (< 2.0.0, >= 1.0.0)
+      puppetlabs/inifile (< 2.0.0, >= 1.0.0)
+      puppetlabs/keystone (< 4.0.0, >= 3.0.0)
+      puppetlabs/mysql (< 1.0.0, >= 0.6.1)
+      puppetlabs/rabbitmq (< 3.0.0, >= 2.0.2)
+      puppetlabs/stdlib (>= 2.5.0)
+    puppetlabs/concat (1.0.0-rc1)
+    puppetlabs/firewall (0.4.2)
+    puppetlabs/glance (3.0.0-rc1)
+      puppetlabs/inifile (< 2.0.0, >= 1.0.0)
+      puppetlabs/keystone (< 4.0.0, >= 3.0.0)
+      puppetlabs/mysql (< 1.0.0, >= 0.6.1)
+      puppetlabs/stdlib (>= 2.5.0)
+    puppetlabs/horizon (3.0.0-rc1)
+      puppetlabs/apache (< 1.0.0, >= 0.4.0)
+      puppetlabs/stdlib (>= 2.5.0)
+      saz/memcached (< 3.0.0, >= 2.0.2)
+    puppetlabs/inifile (1.0.0)
+    puppetlabs/keystone (3.0.0-rc1)
+      puppetlabs/inifile (< 2.0.0, >= 1.0.0)
+      puppetlabs/mysql (< 1.0.0, >= 0.6.1)
+      puppetlabs/stdlib (>= 2.5.0)
+    puppetlabs/mysql (0.9.0)
+      puppetlabs/stdlib (>= 2.2.1)
+    puppetlabs/neutron (3.0.0-rc1)
+      puppetlabs/inifile (< 2.0.0, >= 1.0.0)
+      puppetlabs/keystone (< 4.0.0, >= 3.0.0)
+      puppetlabs/mysql (< 1.0.0, >= 0.6.1)
+      puppetlabs/nova (< 4.0.0, >= 3.0.0)
+      puppetlabs/stdlib (>= 2.3.0)
+      puppetlabs/vswitch (< 1.0.0, >= 0.0.1)
+    puppetlabs/nova (3.0.0-rc1)
+      dprince/qpid (< 2.0.0, >= 1.0.0)
+      duritong/sysctl (< 1.0.0, >= 0.0.1)
+      puppetlabs/cinder (< 4.0.0, >= 3.0.0)
+      puppetlabs/glance (< 4.0.0, >= 3.0.0)
+      puppetlabs/inifile (< 2.0.0, >= 1.0.0)
+      puppetlabs/keystone (< 4.0.0, >= 3.0.0)
+      puppetlabs/mysql (< 1.0.0, >= 0.6.1)
+      puppetlabs/rabbitmq (< 3.0.0, >= 2.0.2)
+      puppetlabs/stdlib (>= 2.5.0)
+    puppetlabs/openstack (3.0.0-rc1)
+      puppetlabs/cinder (< 4.0.0, >= 3.0.0)
+      puppetlabs/glance (< 4.0.0, >= 3.0.0)
+      puppetlabs/horizon (< 4.0.0, >= 3.0.0)
+      puppetlabs/keystone (< 4.0.0, >= 3.0.0)
+      puppetlabs/neutron (< 4.0.0, >= 3.0.0)
+      puppetlabs/nova (< 4.0.0, >= 3.0.0)
+      puppetlabs/swift (< 4.0.0, >= 3.0.0)
+    puppetlabs/postgresql (3.2.0)
+      puppetlabs/apt (< 2.0.0, >= 1.1.0)
+      puppetlabs/concat (< 2.0.0, >= 1.0.0)
+      puppetlabs/firewall (>= 0.0.4)
+      puppetlabs/stdlib (< 5.0.0, >= 3.2.0)
+    puppetlabs/puppetdb (3.0.0)
+      puppetlabs/firewall (>= 0.0.4)
+      puppetlabs/inifile (~> 1)
+      puppetlabs/postgresql (< 4.0.0, >= 3.1.0)
+      puppetlabs/stdlib (>= 2.2.0)
+    puppetlabs/rabbitmq (2.1.0)
+      puppetlabs/apt (>= 0.0.3)
+      puppetlabs/stdlib (>= 2.0.0)
+    puppetlabs/rsync (0.1.0)
+      puppetlabs/xinetd (>= 1.1.0)
+    puppetlabs/stdlib (4.1.0)
+    puppetlabs/swift (3.0.0-rc1)
+      puppetlabs/concat (< 2.0.0, >= 1.0.0)
+      puppetlabs/inifile (< 2.0.0, >= 1.0.0)
+      puppetlabs/keystone (< 4.0.0, >= 3.0.0)
+      puppetlabs/mysql (< 1.0.0, >= 0.6.1)
+      puppetlabs/rsync (< 1.0.0, >= 0.1.0)
+      puppetlabs/stdlib (>= 2.3.0)
+      puppetlabs/xinetd (< 2.0.0, >= 1.0.1)
+      saz/memcached (< 3.0.0, >= 2.0.2)
+      saz/ssh (< 2.0.0, >= 1.0.2)
+    puppetlabs/vswitch (0.1.1)
+    puppetlabs/xinetd (1.2.0)
+      puppetlabs/stdlib (>= 2.2.1)
+    saz/memcached (2.2.4)
+    saz/ssh (1.2.0)
+      puppetlabs/stdlib (>= 2.2.1)
+
+GIT
+  remote: git@github.com:jmslagle/jmslagle-cset4100.git
+  ref: master
+  sha: 8ddcccf8232b243c41f008d8fa3b9802e05a4915
+  specs:
+    cset4100 (0.0.1)
+
+GIT
+  remote: git@github.com:jmslagle/jmslagle-utprofiles.git
+  ref: master
+  sha: f9859b7a57f86e7f164436fb2e7d69a3e42b9320
+  specs:
+    utprofiles (0.0.1)
+
+GIT
+  remote: git@github.com:jmslagle/puppet-jslagle-puppet.git
+  ref: master
+  sha: 8c80f6192c899f43924920b6c4f98b3bcf19f17e
+  specs:
+    puppet (0.0.1)
+
+GIT
+  remote: git@github.com:jmslagle/puppet-jslagle-repos.git
+  ref: master
+  sha: 33d5a8bdb705efd53cc48d5d6d3e909bd2183ed8
+  specs:
+    repos (0.0.1)
+      puppetlabs/apt (>= 1.1.0)
+      puppetlabs/stdlib (>= 3.0.0)
+
+DEPENDENCIES
+  cset4100 (>= 0)
+  puppet (>= 0)
+  puppetlabs/openstack (>= 0)
+  puppetlabs/puppetdb (>= 0)
+  repos (>= 0)
+  utprofiles (>= 0)
+

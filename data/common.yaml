@@ -1,0 +1,3 @@
+---
+puppet::master::config::puppetdb_server: et-p-oscnt-01.et.utoledo.edu
+puppet::master::config::puppetdb_port: "8081"
